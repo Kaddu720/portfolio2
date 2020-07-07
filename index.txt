@@ -1,0 +1,21 @@
+<span id="a">noah@wilson</span>:<span id="b">~</span><span id="c">$</span> cd noah/<!-- laglaglaglaglaglag -->Home
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->noah.txt<br/>
+
+Hello! 
+
+My name is <strong>Noah Wilson</strong>, I'm a <strong>Cloud  Engineer</strong> and computer terminal enthusiast. Click here to learn more <button onclick="loadpage('aboutme.txt')">about me</button>.
+
+<p>
+    If you would like to see some of my work, check out:
+    
+    <button onclick="loadpage('dashboard.txt')"><strong>Dashboard</strong></button>: Dashboard is a python based data management and credit tracking application used by over 200 students at Whittier College.
+
+    <button onclick="loadpage('noahwilson.txt')"><strong>noahwilson.tech</strong></button>: noahwilson.tech is a domain that I have used to experiment with several AWS products and services. 
+</p>
+
+Visit my: 
+<a href="https://github.com/Kaddu720" target="_blank">Github</a> 
+<a href="https://www.linkedin.com/in/noah-wilson-27bb9a149/" target="_blank">LinkedIn</a>
+Send me an email at <!-- longlonglongcomment --><a href="mailto:nwilson@poets.whittier.edu">nwilson(at)poets.whittier.edu</a>.
+
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> 

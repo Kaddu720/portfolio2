@@ -1,0 +1,20 @@
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> <!-- laglaglaglaglaglaglaglaglag --> cd noah/Projects 
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Projects</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->dashboard.txt
+<h2>Dashboard:</h2>
+<a href="https://dashboard.scholars.domains/" target="_blank">Hosted Link</a>
+<a href="https://github.com/wck0/dashboard" target="_blank">Code</a>
+<a href="https://www.thequakercampus.org/featuresblog/2019/10/16/poet-intern-noah-wilsons-website-building-gig" target="_blank">Article</a>
+
+<strong>Overview:</strong>
+
+Dashboard is a data management and credit tracking application for students and faculty of the Whittier Scholars Program. Development of the application was so successful that the Scholars Program adopted Dashboard as their official data management service. Today, it is used by over 200 students and faculty at Whittier College.
+
+<strong>Technology:</strong>
+
+Dashboard was developed using the, python based, Django framework. It tracks student data through a relational SQL database. And, it was deployed onto the Reclaim Hosting cloud platform. 
+
+<strong>Conclusion:</strong>
+
+This project taught me about the agile design process and site reliability standards. It was also my introduction to cloud based application development. Working on Dashboard helped me to develop my soft skills, like explaining technical concepts to a non-technical audience, and translating user needs into software solutions.
+
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Projects</span><span id="c">$</span> 

@@ -1,0 +1,28 @@
+<html> 
+    <head> 
+        <title>Noah Wilson</title> 
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+        <script type="text/javascript" src="index.js"></script> 
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head> 
+  
+    <body> 
+        <div id="console"></div>
+        <div id="read_more"></div>
+        <input id="page" style="display:none"></input>
+        
+        <script>
+            
+            // allows you to click on the link
+            function loadpage (page_name) {
+                var input = document.getElementById("page");
+                input.value = page_name; 
+
+                var script = document.createElement("script");
+                script.src="read_more.js";
+                document.head.appendChild(script);
+            }
+          
+        </script>
+    </body> 
+</html> 

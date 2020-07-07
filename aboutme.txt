@@ -1,0 +1,7 @@
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->aboutme.txt
+<h2>About Me</h2>
+I got my first experience writing software while studying at Whittier College. There, had the opportunity build my first major software project, Dashboard. Dashboard is a data aggregation and management service, built for students and faculty. The project was so successful that it now has over 200 users and was formally adopted by the College.
+
+I am very interested in cloud computing technology. Every industry, from healthcare to gaming, is finding new ways to utilize services like AWS, Microsoft Azure, and Google Cloud. I enjoy taking courses and reading articles about new developments in the field. In fact, this very website is being hosed on Amazon Web Services. Though I'm focusing on AWS now, I hope to expand to other platforms in the future.
+
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span>

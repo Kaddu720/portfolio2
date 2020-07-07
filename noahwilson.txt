@@ -1,0 +1,20 @@
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> <!-- laglaglaglaglaglaglaglaglag --> cd noah/Projects 
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Projects</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->noahwilson.txt
+<h2>noahwilson.tech:</h2>
+
+<a href="https://noahwilson.tech" target="_blank">Hosted Link</a>
+<a href="https://github.com/Kaddu720/portfolio2" target="_blank">Code</a>
+
+<strong>Overview:</strong>
+
+To help me learn about Amazon Web Services, I purchased a domain and used it to help me experiment with their products. Today the domain hosts my personal website, and I hope to expand it to other services and projects.
+
+<strong>Technology:</strong>
+
+Noahwilson.tech is a serverless website hosted on Amazon's S3 product. The domain, routing, and failover was configured in Amazon's Route 53 product. Finally, AWS CloudFront manages content delivery.
+
+<strong>Conclusion</strong>
+
+I really enjoyed putting this website together. Right now it's only a small site, but I hope to expand it to help me study for the Amazon Solutions Architect Certification.
+
+<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span>  
