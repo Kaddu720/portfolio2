@@ -1,0 +1,27 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="../index.css">
+    </head>
+    <body>
+        <div class="about_proj">
+            <h2>Noahwilson.tech: File Sharing</h2>
+
+            <b id="a">Overview:</b><br>
+
+            <p>The last part of my noahwilson.tech project is distributed file storage. I was able to use syncthing to crate directories that would be syncted up across all of my divices.</p>
+
+            <b id="a">Technology:</b><br>
+
+            <p>This one was pretty difficult. I frist tried to set up a service called NextCloud, which would give me a very comprehensive google drive like experince. But, NextCloud refused to play nicely with my other programs so I had to scrap it.</p>
+            
+            <p>That's when I found Syncthing. Syncthing syncs the directories of every phone and computer you register with it. So, it's more similar to a shared external drive than a google docs account. It worked perfectly for my use case and instalation was a breeze.</p> 
+            
+            <p>The issue came with trying to access it from outside of my cloud isntance. Syncthing was designed to be accesed with a browser through the local host port on the computer that it's hosted on. To access it through my nginix server, I had to set up a reverse proxy. In the end it works and I have encrypted file syncing for all my divices.</p>
+
+            <b id="a">Conclusion:</b><br>
+
+            <p>With this last pice in place, I consider version 1 of my project complete. I'm looking forward to expanding into my little cloud echosystem.</p>
+
+        </div>
+    </body>
+</html>

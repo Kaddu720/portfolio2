@@ -1,28 +1,116 @@
 <html> 
     <head> 
-        <title>Noah Wilson</title> 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+        <title>Noah Wilson</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script type="text/javascript" src="index.js"></script> 
         <link rel="stylesheet" type="text/css" href="index.css">
-    </head> 
-  
-    <body> 
-        <div id="console"></div>
-        <div id="read_more"></div>
-        <input id="page" style="display:none"></input>
-        
-        <script>
+    </head>
+
+    <body>
+        <div id="content">
+            <br>
             
-            // allows you to click on the link
+            <h2 style="color: #C7C4C3; text-align: center;"> Noah Wilson </h2>
+            
+            <br>
+            <!--<div id="tabmenu">-->
+                <button class="tablink" onclick="openPage('Home', this)" id="defaultOpen" style="border-left: dotted 1px #4d4d4d;">Home</button>
+                <button class="tablink" onclick="openPage('About', this)">About Me</button>
+                <button class="tablink" onclick="openPage('Projects', this)">Projects</button>
+                <!--</div>-->
+             
+            <div id="Home" class="tabcontent">
+                <div id="console" style="height: 650px;"></div>
+            </div>
+
+            <div id="About" class="tabcontent">
+                
+                <span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> cat about_me.txt
+                <h2>About Me</h2>
+                <p>I got my start writing course tracking apps for my college. My last application, Dashboaard, was bought by the college and has over 200 users.</p>
+
+                <p>That experince lead me to explore computer netowrking and cloud computing. Toady, I implement and maintain cloud infastructure on AWS for a wide variety of companies.</p>
+
+                <p>In my spare time I like to visit hole in the wall resutatns, mess around with linux configs, and watch indie films.</p>
+
+                <span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> |
+            </div>
+
+            <div id="Projects" class="tabcontent" style="padding: 50px 20px; height: 650px;">
+                <input id="page" style="display:none;"></input>
+                <div id="project_menu">
+                    <h2 id="b">Projects:</h2>
+                    <button class="console_btn" onclick="loadpage('projects/noahwilson.html')">
+                        <b>Noahwilson.tech</b>
+                    </button>
+                    <ul style="margin-top: 5px;">
+                        <li>
+                            <button class="console_btn" onclick="loadpage('projects/noahwilson-site.html')">
+                                Web Page
+                            </button>
+                        </li>
+                        <li>
+                            <button class="console_btn" onclick="loadpage('projects/noahwilson-searx.html')">
+                                Searx
+                            </button>
+                        </li>
+                        <li>
+                            <button class="console_btn" onclick="loadpage('projects/noahwilson-mail.html')">
+                                Email
+                            </button>
+                        </li>
+                        <li>
+                            <button class="console_btn" onclick="loadpage('projects/noahwilson-sync.html')">
+                                Storage
+                            </button>
+                        </li>
+                    </ul>
+                    <button class="console_btn" onclick="loadpage('projects/dashboard.html')">
+                        <b>Dashboard</b>
+                    </button>
+                </div>
+                <div id="project_read">
+                    <iframe id="read_more"src="" width="600" height="650" style="margin-top: 0px;"></iframe>
+                </div>
+            </div>
+        </div>
+        <script>
+            function openPage(pageName, elmnt) {
+              // Hide all elements with class="tabcontent" by default */
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+
+              // Remove the background color of all tablinks/buttons
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+                tablinks[i].style.borderBottom = "dotted 1px #4d4d4d";
+              }
+
+              // Show the specific tab content  
+                if (pageName !== 'Projects') {
+                document.getElementById(pageName).style.display = "block";
+              } else {
+                document.getElementById(pageName).style.display = "flex";
+              }
+
+
+              // Removes the bottom border of the selected tab
+              elmnt.style.borderBottom = "none";
+              }
+
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+
             function loadpage (page_name) {
                 var input = document.getElementById("page");
-                input.value = page_name; 
-
-                var script = document.createElement("script");
-                script.src="read_more.js";
-                document.head.appendChild(script);
+                input.value = page_name
+                
+                document.getElementById("read_more").src = page_name ;
             }
-          
         </script>
-    </body> 
-</html> 
+    </body>
+</html>
