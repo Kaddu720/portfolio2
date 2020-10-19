@@ -7,7 +7,7 @@
 
 <strong>Overview:</strong>
 
-To help me learn about Amazon Web Services, I purchased a domain and used it to help me experiment with their products. Today the domain hosts my personal website, and I hope to expand it to other services and projects.
+In order To help me learn about Amazon Web Services, I purchased a domain and used it to help me experiment with their products. Today the domain hosts my personal website, and I hope to expand it to other services and projects.
 
 <strong>Technology:</strong>
 

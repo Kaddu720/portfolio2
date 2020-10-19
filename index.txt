@@ -1,5 +1,5 @@
-<span id="a">noah@wilson</span>:<span id="b">~</span><span id="c">$</span> cd noah/<!-- laglaglaglaglaglag -->Home
-<span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->noah.txt<br/>
+<span id="a">noah@wilson</span>:<span id="b">~</span><span id="c">$</span> cd noah/<!-- laglaglaglaglaglag -->home
+<span id="a">noah@wilson</span>:<span id="b">~/noah/home</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->noah.txt<br/>
 
 Hello! 
 
