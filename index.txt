@@ -3,19 +3,16 @@
 
 Hello! 
 
-My name is <strong>Noah Wilson</strong>, I'm a <strong>Cloud  Engineer</strong> and computer terminal enthusiast. Click here to learn more <button onclick="loadpage('aboutme.txt')">about me</button>.
+My name is <b>Noah Wilson</b>, I'm a <b>Cloud  Engineer</b> and bash terminal enthusiast operating out of Southern California.  
 
-<p>
-    If you would like to see some of my work, check out:
-    
-    <button onclick="loadpage('dashboard.txt')"><strong>Dashboard</strong></button>: Dashboard is a python based data management and credit tracking application used by over 200 students at Whittier College.
+I built this website so I could have my own little corner of the internet to call home. Feel free to look around and check out some of my projects.      
 
-    <button onclick="loadpage('noahwilson.txt')"><strong>noahwilson.tech</strong></button>: noahwilson.tech is a domain that I have used to experiment with several AWS products and services. 
-</p>
+If you're looking for my searx instance, go <a href="https://www.search.noahwilson.tech" target="_blank">here</a>.
 
 Visit my: 
 <a href="https://github.com/Kaddu720" target="_blank">Github</a> 
 <a href="https://www.linkedin.com/in/noah-wilson-27bb9a149/" target="_blank">LinkedIn</a>
-Send me an email at <!-- longlonglongcomment --><a href="mailto:nwilson@poets.whittier.edu">nwilson(at)poets.whittier.edu</a>.
+
+And, you can always email me at <a href = "mailto: noah@noahwilson.tech">noah(at)noahwilson.tech</a>
 
 <span id="a">noah@wilson</span>:<span id="b">~/noah/Home</span><span id="c">$</span> 

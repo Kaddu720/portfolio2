@@ -1,73 +1,103 @@
-body {
-	background-color: #000;
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    margin: 0;
+    font-family: 'Share Tech Mono', Monospace, Courier;
+    font-size: 17px;
+    background-color: #222;
 }
 
-
-
-#console {
-	font-family: 'Share Tech Mono', Monospace, Courier;
-	color: #fff;
-	width:100%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:100px;
-	font-size:50px;
+/* page contnet */
+#content {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#read_more {
-	font-family: 'Share Tech Mono', Monospace, Courier;
-    color: #fff;
-	width:100%;
-	margin-left:auto;
-	margin-right:auto;
-	font-size:50px;
-    margin-bottom: 50px;
+/* Style tab links */
+#tabmenu {
+    width: 850px;
+    outline: 2px;
 }
 
-@media (min-width: 768px) {
-    #console {
-        width: 750px;
-        font-size:17px;
-    }
-    
-    #read_more {
-	    width:750px;
-        font-size: 17px;
-    }
-} 
+.tablink {
+  background-color: #222;
+  color: #C7C4C3;
+  float: left;
+  border: none;
+  border-right: dotted 1px #4d4d4d;
+  border-bottom:dotted 1px #4d4d4d;
+  border-top: dotted 1px #4d4d4d;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+}
 
-button {
+.tablink:hover {
+  background-color: #C7C4C3;
+  color: #222;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    width:760px;
+    height: 600px;
+    background: #222;
+    color: #C7C4C3;
+    display: none;
+    padding: 100px 20px;
+    border: dotted 1px #4d4d4d;
+    border-top: none;
+}
+
+.console_btn {
     background: none;
     border: none;
     padding: 0;
 	font-family: 'Share Tech Mono', Monospace, Courier;
-	font-size:50px;
-   	color: #0bc;
-    background-color: 000;
-	text-decoration: none;
+	font-size:17px;
+   	color: #C7C4C3;
+    background-color: #222;
     cursor: pointer;
 }
 
-
-@media (min-width: 768px) {
-    button {
-        font-size:17px;
-    }
-}
-
-button:hover {
+.console_btn:hover {
     text-decoration: underline;
 }
 
+/* styling for the projects page with a flex box*/
+#project_menu {
+    width: 200px;
+}
+
+#project_read {
+    width: 650px;
+    height: 700px;
+}
+
+iframe {
+    border: dotted 1px #4d4d4d;
+    margin: 20px;
+}
+
+.about_proj {
+    color: #C7C4C3;
+    margin: 10px;
+    font-size: 17px;
+}
+
+/*Link styling */
 a {
 	color: #0bc;
 	text-decoration: none;
 }
 
-a:hover {
+a:hover{
     text-decoration: underline;
 }
 
+/* Front page terminal stlying */
 #a {
 	color: #0f0;
 }
@@ -78,14 +108,4 @@ a:hover {
 
 #b {
 	color: #ff0096;
-}
-
-#op{
-    	color: #888888
-}
-
-@keyframes change {
-    	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
-    	99% { color: black; }
 }

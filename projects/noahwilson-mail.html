@@ -1,0 +1,25 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="../index.css">
+    </head>
+    <body>
+        <div class="about_proj">
+            <h2>noahwilson.tech: Mail Server</h2>
+            <a href="mailto: noah@noahwilson.tech" target="_blank">Send me an email</a><br>
+            <a href="https://github.com/LukeSmithxyz/emailwiz" target="_blank">Make your own</a><br>
+            <br>
+
+            <b id="a">Overview:</b><br>
+
+            <p>As it turns out, creating an email server is very difficult. There are several different moving parts and each one needs to be stitched into the other ones to make the whole thing work. That being said, it was very instructive.</p>
+
+            <b id="a">Technology:</b><br>
+
+            <p>A mail server has 3 parts, an smtp server for sending mail, a dovecot server for receiving it, and a spam filter. Thankfully, there are many scripts online that can help you set these up. But, sometimes even that isn't enough. I made my first attempt using a server that was running Ubuntu 18.04. I used a script from a reputable developer to download and do most of the configuration. But, the server refused to work. A day of trouble shooting later, I discovered that the particular versions of my smtp and dovecot servers were in conflict. The Ubuntu repositories at the time where no help. So, instead of fighting my package manager, I moved everything I had been working on over to Debian. This included by regular website and Searx instance. The transition was successful and I was able to resolve the versioning issue.</p>
+
+            <b id="a">Conclusion:</b><br>
+            <p>Overall it was a very educational experience. Though, hopefully, I'll never have to do it again. I was surprised at how easy to use Debian servers are. I always assumed that Ubuntu was superior because it had more features, but this project may have sold me on switching over.</p> 
+
+        </div>
+    </body>
+</html>
